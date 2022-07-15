@@ -2,7 +2,7 @@
 
 ## Acknowledgement
 
-Implementation of network structure are referred to DongHande's github.
+Implementation of network structure are referred to EpoAtk and DongHande's github.
 
 Thanks to their outstanding works!
 
