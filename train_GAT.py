@@ -6,14 +6,7 @@ import numpy as np
 import torch
 import torch.nn.functional as F
 
-#from utils.utils import accuracy, load_data
 from utils import accuracy, load_data
-
-#from utils.number import accuracy, load_data
-#from utils.rate_min import accuracy, load_data
-
-#from utils.utils_APPNP import accuracy, load_data
-#from utils.utils_SK import accuracy, load_data
 
 from model.model_GAT import GAT
 import random
@@ -92,7 +85,7 @@ for epoch in range(args.epochs):
 end = time.time()
 time = end - start
 
-print("GCN Optimization Finished!")
+print("GAT Optimization Finished!")
 # Restore best model
 print('Loading {}th epoch'.format(early_stopping.best_epoch))
 model.load_state_dict(early_stopping.best_state)
