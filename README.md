@@ -1,5 +1,5 @@
 # MG-attack
-This is the code of Adversarial Label Poisoning Attack on Graph Neural Networks via Label Propagation (ECCV 2022). 
+This is the code of [Adversarial Label Poisoning Attack on Graph Neural Networks via Label Propagation (ECCV 2022)](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136650223.pdf). 
 
 ## Basic Environment
 * Python == 3.7.13
