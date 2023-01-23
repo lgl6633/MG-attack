@@ -6,8 +6,7 @@ import numpy as np
 import torch
 import torch.nn.functional as F
 
-from LafAK.Laf_utils import accuracy, load_data #noise_rate original_LafAK
-#from LafAK.LafAK_utils import accuracy, load_data  #improved_LafAK
+from LafAK.LafAK_utils import accuracy, load_data  #improved_LafAK
 #from LafAK.LafAK_number import accuracy, load_data  #noise_number
 from model.models import GCN
 import random
