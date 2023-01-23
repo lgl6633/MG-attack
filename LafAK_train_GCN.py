@@ -12,7 +12,6 @@ from model.models import GCN
 import random
 from early_stop import EarlyStopping, Stop_args
 
-
 args = arguments.parse_args()
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
